@@ -8,18 +8,18 @@
 
 class Canvas {
   public:
-    Canvas(unsigned int width, unsigned int height);
+    Canvas(int width, int height);
 
     // For now only getters. However, is often necessary that the user may be
     // able to resize the canvas
-    unsigned int getWidth() { return mWidth; }
-    unsigned int getHeight() { return mHeight; }
+    int getWidth() { return mWidth; }
+    int getHeight() { return mHeight; }
 
     void setCellColor(int x, int y, Color color);
     Color getCellColor(int x, int y);
 
   private:
-    unsigned int mWidth, mHeight;
+    int mWidth, mHeight;
     std::vector<Color> mData;
 };
 
