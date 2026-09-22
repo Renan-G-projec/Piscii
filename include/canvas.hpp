@@ -3,7 +3,6 @@
 #define CANVAS_HPP
 
 #include "color.hpp"
-#include <algorithm>
 #include <vector>
 
 class Canvas {
