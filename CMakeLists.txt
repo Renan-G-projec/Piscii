@@ -13,6 +13,7 @@ target_sources(
 
   src/main.cpp
   src/canvas.cpp
+  src/terminalManager.cpp
 )
 
 target_include_directories(
